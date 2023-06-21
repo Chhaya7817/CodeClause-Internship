@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Convertor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="clicklen()">
+    <div class="div">
+        <h1>UNIT CONVERTOR</h1>
+    </div>
+    
+    <div class="covertor-body" >
+            <div class="menu">
+                <a href="#length"  id="len">Length</a>
+                <a href="#weight">Weight</a>
+                <a href="#temperature">Temperature</a>
+            </div>
+            
+            <div id="length" class="length"  >
+                
+                <div id="main"  >
+                    <section>
+                        <input type="text" name="input_value" id="input_value" placeholder="input" value="1" onkeyup="getlen()">
+                        <input type="text" name="res_value" id="res_value" placeholder="result" onkeyup="setlen()">
+                    </section>
+                    <select name="" id="get" onchange="reset()">
+                        <option value="meter">meter</option>
+                        <option value="cm">cm</option>
+                        <option value="km">km</option>
+                        <option value="foot">foot</option>
+                    </select>
+                    <select name="" id="set" onchange="reset()">
+                        <option value="cm">cm</option>
+                        <option value="meter">meter</option>
+                        
+                        <option value="km">km</option>
+                        <option value="foot">foot</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- weight -->
+            <div id="weight" class="weight">
+                
+                <div id="main">
+                    <section>
+                        <input type="text" name="input_value" id="input_valu" placeholder="input" value="1" onkeyup="getweight()">
+                        <input type="text" name="res_value" id="res_valu" placeholder="result" value="1" onkeyup="setweight()">
+                    </section>
+                    <select name="" id="get1" onchange="reset()" >
+                        <option value="gram">gram</option>
+                        <option value="kg">kilogram</option>
+                        <option value="mtone">metric tone</option>
+                    </select>
+                    <select name="" id="set1" onchange="reset()">
+                        
+                        <option value="kg">kilogram</option>
+                        <option value="mtone">metric tone</option>
+                        <option value="gram">gram</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- temperature -->
+            <div id="temperature" class="temperature">
+                
+                <div id="main">
+                    <section>
+                        <input type="text" name="input_value" id="input_val" placeholder="input" value="1" onkeyup="gettemp()">
+                        <input type="text" name="res_value" id="res_val" placeholder="result" value="1" onkeyup="settemp()">
+                    </section>
+                    <select name="" id="get2" onchange="reset()">
+                        <option value="celcius">celcius</option>
+                        <option value="fah">Fahrenheit </option>
+                    </select>
+                    <select name="" id="set2" onchange="reset()">
+                        <option value="fah">Fahrenheit </option>
+                        <option value="celcius">celcius</option>
+                        
+                    </select>
+                </div>
+            </div>
+
+
+
+
+
+
+    </div>
+    <script  src="script.js"></script>
+</body>
+</html>
