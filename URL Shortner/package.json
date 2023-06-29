@@ -1,0 +1,20 @@
+{
+  "name": "urlShortener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.18.2",
+    "http-errors": "^1.8.0",
+    "mongoose": "^5.13.19",
+    "nodemon": "^2.0.22",
+    "shortid": "^2.2.16"
+  }
+}

@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+body{
+    height: 100vh;
+    background-color: #EEE2DE;
+}
+#mainSection {
+    background-color: #EEE2DE;
+    height: 62vh;
+    padding: 100px;
+    
+}
+h1{
+    text-align: center;
+    padding-bottom: 150px;
+    position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #080808;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  margin-bottom: 50px;
+}
+h1:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: #4f4c5d;
+  }
+
+.box {
+    width: 525px;
+    margin: auto;
+   background-color: #CADEFC;
+    padding: 50px;
+    border: 5px solid #3282B8;
+    text-align: center;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 5px 10px 10px rgb(41, 129, 170);
+    
+   
+}
+input{
+    margin: 10px;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 24px;
+}
+
+.short-url {
+    height: 80px;
+    margin: 20px;
+    
+}
+
+.short-url a {
+    color: red;
+    font-size: 21px;
+}
+input#url {
+    width: -webkit-fill-available;
+    padding: 10px;
+}
+input.submit {
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 17px;
+    height: 50px;
+    font-weight: 600;
+    border: 2px solid blue;
+    border-radius: 10px;
+    background: rgb(39, 183, 244);
+    margin: 20px;
+    box-shadow: 5px 10px 5px rgb(139, 154, 186);
+    transition: 0.5s;
+    
+}
+input.submit:hover{
+    box-shadow: 5px 10px 5px rgb(122, 161, 209);
+    transform: scale(1.05);
+}
+
+.btn{
+    font-size: 24px;
+    color: #080808;
+    border: 0px;
+    background-color: #CADEFC;
+}
+.footer{
+    text-align: center;
+}
+
